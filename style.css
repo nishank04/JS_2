@@ -1,0 +1,67 @@
+
+            
+            .myp{
+                color:red;margin: 2px 5px 3px 4px;padding: 2px 5px 7px 9px;border: 5px black solid;
+            }
+            .myp2{
+               color:green; 
+            }
+            #xyz.myp{
+                background: pink
+            }
+            #xyz>span{
+                
+            }
+			
+			table.bordered, table.bordered>thead>tr, table.bordered>tbody>tr, table.bordered>tfoot>tr, table.bordered>thead>tr>td, table.bordered>tbody>tr>td, table.bordered>tfoot>tr>td{
+				border:1px solid;
+				border-collapse:collapse;
+			}
+			
+			
+			table.border2, .border2 tr,.border2 td{
+				border:1px solid GREEN;
+				border-collapse:collapse;
+			}
+			
+			table.border2 thead{
+				font-size:20px;
+				font-weight:900;
+				border-bottom:5px solid;
+			}
+			input[type=number]:focus{
+				background:green;
+			}
+        a{			
+			color:black;
+			text-decoration:none;
+		}
+		a:visited{
+			color:blue
+		}
+		a:hover{
+			color:pink;
+			
+		}
+		a:active{
+			color:red;
+		}
+		
+		#testPara{
+			text-align:justify;
+		}
+		
+		#testPara::first-letter{
+			color:Red;
+			font-size:48px;
+		}
+		#testPara::first-line{
+			line-height:16px;
+		}
+		
+		@media only screen and (min-width: 700px){
+			#testPara{
+				text-align:center;
+				font-size:10px;
+			}
+		}
